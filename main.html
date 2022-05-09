@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>BubbleHunt</title>
+        <link rel="stylesheet" media="screen" href="./styles.css" type="text/css"/>
+        <script src="./jquery.js"></script>
+        <script src="./code.js"></script>
+    </head>
+    <body>
+        <div id="ecranAcceuil">
+            <div id="titre">BubbleHunt</div>
+            <div id="image">(ici une image du jeu)</div>
+            <div id="regles">Déplacez la bulle bleue avec la souris pour attraper les seules bulles vertes</div>
+            <div id="boutonJouer"><input type="submit" value="Jouer"></div>
+        </div>
+        <div id="ecranJeu">
+            <div id="score">(score)</div>
+            <div id="niveau">(niveau)</div>
+            <div id="vies">(vies)</div>
+            <div id="temps">(temps)</div>
+            <div id="animation">
+                <canvas id="dessin" width="450" height="300">
+                    Texte pour les naviagteurs qui ne supportent pas canvas
+                </canvas>
+            </div>
+            <div id="boutonQuitter"><input type="submit" vaue="Quitter"></div>
+        </div>
+        <div id="ecranBilan">
+            <div id="scoreFinal">(score)</div>
+            <div id="niveauFinal">(niveau)</div>
+            <div id="boutonAcceuil"><input type="submit" value="Acceuil"></div>
+            <div id="boutonRejouer"><input type="submit" value="Rejouer"></div>
+        </div>
+        <footer>BubbleHunt v1.0</footer>
+    </body>
+</html>

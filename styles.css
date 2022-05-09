@@ -1,0 +1,15 @@
+body {
+    background-color: #ccc;
+}
+* {
+    font-family: "Arial", sans-serif;
+    font-size: 12pt;
+    color: #000;
+}
+#titre {
+    font: bold 16pt sans-serif;
+    color: red;
+}
+footer{
+    
+}
